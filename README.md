@@ -61,6 +61,7 @@ Then just initialise the plugin by import DataTable and either passing a referen
 
 ```javascript
 import {DataTable} from "simple-datatables"
+import "simple-datatables/dist/style.css"
 
 const myTable = document.querySelector("#myTable");
 const dataTable = new DataTable(myTable);
